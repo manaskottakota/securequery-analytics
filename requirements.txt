@@ -1,0 +1,24 @@
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.25
+
+# Security & Encryption
+cryptography==42.0.2
+bcrypt==4.1.2
+
+# Data Processing
+pandas==2.2.0
+
+# CLI
+click==8.1.7
+
+# SQL Parsing
+sqlparse==0.4.4
+
+# Configuration
+pyyaml==6.0.1
+python-dotenv==1.0.1
+
+# Testing
+pytest==8.0.0
+pytest-cov==4.1.0
