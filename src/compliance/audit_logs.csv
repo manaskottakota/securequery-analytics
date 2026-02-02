@@ -1,0 +1,7 @@
+timestamp,user_id,username,action,query_text,tables_accessed,columns_accessed,status,reason
+2026-02-02 11:46:38.008114,12,audit_test_user,query,"SELECT ssn FROM employees",employees,ssn,denied,no access to column employees.ssn
+2026-02-02 11:46:38.007087,12,audit_test_user,query,"SELECT * FROM employees",employees,name, email, salary,success,None
+2026-02-02 11:46:38.004447,12,audit_test_user,login,"user logged in",None,None,success,None
+2026-02-02 11:44:21.122981,12,audit_test_user,query,"SELECT ssn FROM employees",employees,ssn,denied,no access to column employees.ssn
+2026-02-02 11:44:21.121894,12,audit_test_user,query,"SELECT * FROM employees",employees,name, email, salary,success,None
+2026-02-02 11:44:21.113099,12,audit_test_user,login,"user logged in",None,None,success,None
