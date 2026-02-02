@@ -63,9 +63,10 @@ class DatabaseManager:
                 
                 if fetch:
                     results = cursor.fetchall()
+                    conn.commit()  # commit even for selects to clear transaction
                     return results
                 else:
-                    conn.commit()
+                    conn.commit()  # commit the transaction
                     return None
         except Exception as e:
             conn.rollback()
