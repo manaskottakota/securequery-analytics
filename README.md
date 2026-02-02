@@ -122,21 +122,6 @@ python3 src/cli.py logs-table <table> [--limit N]
 python3 src/cli.py logs-recent [--limit N]
 ```
 
-## project structure
-
-securequery-analytics/
-├── src/
-│   ├── storage/      # postgresql connection and schema
-│   ├── security/     # column encryption with fernet
-│   ├── access/       # user auth and rbac
-│   ├── engine/       # sql parsing and execution
-│   ├── compliance/   # audit logging
-│   ├── pipeline/     # csv ingestion
-│   └── cli.py        # command-line interface
-├── data/             # sample csv files
-└── tests/            # module tests
-
-
 ## skills demonstrated
 
 - sql database design (normalization, transactions, indexing)
